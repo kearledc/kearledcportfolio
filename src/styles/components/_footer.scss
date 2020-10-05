@@ -1,0 +1,18 @@
+.footer--container-dark {
+	background-color: #121212;
+}
+
+.footer--container-light {
+	background-color: $lightGray;
+}
+
+.footer--container {
+	height: 5vh;
+	z-index: -5;
+	padding: $s-size;
+}
+
+.footer--description {
+	text-align: center;
+	font-size: $m-size;
+}

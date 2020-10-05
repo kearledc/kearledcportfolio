@@ -1,0 +1,70 @@
+@media (max-width: 425px) {
+	.header__typewriter {
+		font-size: $l-size !important;
+	}
+
+	.projects__container {
+		height: 140vh !important;
+	}
+
+	.project__card-container {
+		flex-direction: column !important;
+		align-items: center;
+	}
+	.project__card {
+		width: 100% !important;
+		margin-bottom: $m-size;
+		min-height: 35vh !important;
+	}
+
+	.expensify,
+	.memory {
+		height: 30vh !important;
+	}
+
+	.about__container {
+		flex-direction: column;
+		height: 140vh !important;
+	}
+
+	.container__about-text,
+	.about__frontend,
+	.about__backend {
+		width: 100% !important;
+	}
+
+	.project__hover-container {
+		left: -2px !important;
+	}
+}
+
+@media (max-width: 320px) {
+	.switch {
+		height: 20px !important;
+		width: 47px !important;
+		left: 23px;
+		top: 7px;
+	}
+
+	.slider:before {
+		height: 17px !important;
+		width: 17px !important;
+		left: 2px !important;
+		bottom: 2px !important;
+	}
+
+	.fa-sun,
+	.fa-moon {
+		font-size: $m-size !important;
+	}
+
+	.fa-sun {
+		left: -20px !important;
+		top: 2px !important;
+	}
+
+	.fa-moon {
+		left: 50px !important;
+		top: 2px !important;
+	}
+}

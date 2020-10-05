@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: $monsterRat;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 80rem;
+	padding: 0 1.6rem;
+}
+
+.darkMode {
+	background-color: $darkGray;
+	color: $greenBlue;
+	transition: 0.2s ease-in;
+	min-height: 100vh;
+	position: relative;
+}
+
+.lightMode {
+	background-color: #fff;
+	color: $darkGray;
+	transition: 0.2s ease-in;
+	position: relative;
+	min-height: 100vh;
+}
+
+.content--container {
+	min-height: 85vh;
+}

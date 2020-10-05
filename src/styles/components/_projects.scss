@@ -1,0 +1,114 @@
+.projects__header {
+	font-size: $xl-size;
+	text-align: center;
+}
+
+.projects__container {
+	padding-top: $m-size;
+	align-items: center;
+	height: 80vh;
+}
+
+.projects__container a {
+	color: $darkGray;
+}
+
+.projects__image {
+	width: 100%;
+	overflow: hidden;
+	transition: 0.3s ease-out;
+}
+
+.project__card {
+	padding: $m-size 0;
+	width: 30%;
+	position: relative;
+	transition: 0.3s ease-in;
+	padding: $s-size;
+	z-index: 2;
+}
+
+.card-Dark {
+	border: solid 0.2rem $greenBlue;
+	border-radius: 5px;
+	background-color: #121212;
+}
+
+.card-Light {
+	border: solid 0.2rem $darkGray;
+	border-radius: 5px;
+}
+
+.project__name {
+	text-align: center;
+	padding: $s-size 0;
+}
+
+.project__description {
+	text-align: center;
+	font-size: $m-size;
+}
+
+.project__card-container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: $s-size;
+}
+
+.project__hover-container {
+	position: absolute;
+	transition: 0.3s ease-in;
+	top: 0;
+	height: 100%;
+	padding: $m-size;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	opacity: 0;
+	z-index: 2;
+}
+
+.project__card:hover img {
+	opacity: 0;
+}
+
+.project__card:hover .project__hover-container {
+	opacity: 1;
+	transform: scale(1.1);
+}
+
+.project__hover-button {
+	border-radius: 0.3rem;
+	border: solid 0.1rem transparent;
+	padding: $s-size;
+	margin-top: $s-size;
+	transition: 0.2s ease;
+	cursor: pointer;
+}
+
+.button-Light {
+	color: $lightGray;
+	background-color: $darkGray;
+}
+
+.button-Light:hover {
+	border: solid 0.1rem $darkGray;
+	background-color: $lightGray;
+	color: $darkGray;
+}
+
+.button-Dark {
+	color: $greenBlue;
+	background-color: $darkGray;
+}
+
+.button-Dark:hover {
+	border: solid 0.1rem $greenBlue;
+	color: $greenBlue;
+}
+
+.memory,
+.expensify {
+	height: 100%;
+}
